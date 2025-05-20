@@ -1,4 +1,5 @@
 import PromotionCard from './PromotionCard';
+import WhatsAppButton from './WhatsAppButton';
 
 const PromoSection = () => {
   const promotions = [
@@ -63,6 +64,7 @@ const PromoSection = () => {
           ))}
         </div>
       </div>
+      <WhatsAppButton />
     </section>
   );
 };

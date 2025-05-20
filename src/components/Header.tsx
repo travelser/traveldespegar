@@ -30,7 +30,9 @@ const Header = () => {
             <div className="hidden md:flex items-center space-x-6">
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="text-sm">Para ventas 555 067 7546</span>
+                <a href="tel:5550677546" className="text-sm hover:text-[#2C4BA3] transition-colors">
+                  Para ventas 555 067 7546
+                </a>
               </div>
               <button className="text-sm flex items-center">
                 <HelpCircle className="h-4 w-4 mr-1" />
@@ -38,9 +40,9 @@ const Header = () => {
               </button>
             </div>
             <div className="md:hidden flex items-center">
-              <a href="tel:8000624319" className="flex items-center text-sm">
+              <a href="tel:5550677546" className="flex items-center text-sm hover:text-[#2C4BA3] transition-colors">
                 <Phone className="h-4 w-4 mr-1" />
-                <span>800-062-4319</span>
+                <span>555 067 7546</span>
               </a>
             </div>
             <div className="flex items-center space-x-4 md:space-x-6">

@@ -1,11 +1,10 @@
-import React from 'react';
 import PromotionCard from './PromotionCard';
 
 const PromoSection = () => {
   const promotions = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/1078983/pexels-photo-1078983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/1802255/pexels-photo-1802255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Cancún - Todo Incluido',
       subtitle: 'Vuelo + Hotel por 4 noches',
       price: 'MXN $9,899',
@@ -14,7 +13,7 @@ const PromoSection = () => {
     },
     {
       id: 2,
-      image: 'https://images.pexels.com/photos/1486778/pexels-photo-1486778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'Los Cabos - Semana de Lujo',
       subtitle: 'Paquete con traslados incluidos',
       price: 'MXN $15,299',
@@ -26,7 +25,7 @@ const PromoSection = () => {
       image: 'https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title: 'CDMX - Fin de Semana',
       subtitle: 'Hotel 5 estrellas por 3 noches',
-      price: 'MXN $3,599',
+      price: 'MXN $9,599',
       label: 'POPULAR'
     },
     {

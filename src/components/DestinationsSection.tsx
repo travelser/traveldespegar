@@ -1,11 +1,10 @@
-import React from 'react';
 import DestinationCard from './DestinationCard';
 
 const DestinationsSection = () => {
   const destinations = [
     {
       id: 1,
-      image: 'https://images.pexels.com/photos/2498505/pexels-photo-2498505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/1802255/pexels-photo-1802255.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       name: 'Cancún',
       country: 'México'
     },
@@ -23,7 +22,7 @@ const DestinationsSection = () => {
     },
     {
       id: 4,
-      image: 'https://images.pexels.com/photos/9376815/pexels-photo-9376815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       name: 'Los Cabos',
       country: 'México'
     },
